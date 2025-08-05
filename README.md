@@ -1,6 +1,7 @@
 # Conversor de Moedas :currency_exchange:
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue?logo=openjdk&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Um conversor de moedas para terminal, desenvolvido em Java, que utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/) para obter cotações em tempo real e salva um histórico de todas as operações. Este projeto foi um challenge oferecido pela Alura por meio do programa ONE (Oracle Next Education) desenvolvido com foco em boas práticas de programação orientada a objetos e separação de responsabilidades.
 
@@ -13,6 +14,7 @@ Um conversor de moedas para terminal, desenvolvido em Java, que utiliza a [Excha
 * [Como Executar](#como-executar)
     * [Pré-requisitos](#pré-requisitos)
 * [Estrutura do Projeto](#estrutura-do-projeto)
+* [Licença](#Licença)
 
 ## Sobre o Projeto
 
@@ -86,3 +88,7 @@ O código está organizado em classes com responsabilidades bem definidas para p
 - `TaxasDeCambio.java`: Objeto de Transferência de Dados (DTO) que modela e armazena os dados recebidos da API de forma estruturada.
 - `ConversorDeMoeda.java`: Contém a lógica de negócio para realizar os cálculos de conversão.
 - `GeradorDeArquivo.java`: Responsável por criar e escrever no arquivo de histórico de conversões.
+
+## Licença
+
+Distribuído sob a licença MIT.
